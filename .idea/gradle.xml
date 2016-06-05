@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/displayjokes" />
+            <option value="$PROJECT_DIR$/gce_backend" />
             <option value="$PROJECT_DIR$/jokesdata" />
           </set>
         </option>
@@ -19,6 +20,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/displayjokes" />
+            <option value="$PROJECT_DIR$/gce_backend" />
             <option value="$PROJECT_DIR$/jokesdata" />
           </set>
         </option>

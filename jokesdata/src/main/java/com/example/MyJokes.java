@@ -11,10 +11,10 @@ public class MyJokes {
 
     public MyJokes() {
         jokes = new String[4];
-        jokes[0] = "AAAA A sasas asasasa sasasasas";
-        jokes[1] = "afda fd asfds dasfds asfa a";
-        jokes[2] = "asfdsf dsf dsfds sdfdsdsf sdf";
-        jokes[3] = "rtrt5653454 345345 5 34534 55345345453454";
+        jokes[0] = "aaaaaaaaaaa";
+        jokes[1] = "bbbbbbbbbbbbbbbb";
+        jokes[2] = "ccccccccccc";
+        jokes[3] = "ddddddddddddddddd";
         random_number = new Random();
     }
 
