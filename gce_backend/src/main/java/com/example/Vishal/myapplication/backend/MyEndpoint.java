@@ -27,13 +27,21 @@ public class MyEndpoint {
 
     /**
      * A simple endpoint method that takes a name and says Hi back
-     */
+ /*    *//*
     @ApiMethod(name = "sayHi")
     public MyBean sayHi(@Named("name") String name) {
         MyBean response = new MyBean();
         response.setData("Hi, " + name+" "+response.getJoke());
 
         return response;
+    }*/
+
+
+    @ApiMethod(name = "putJoke")
+    public MyBean putJoke(MyBean joke) {
+//        JokeBean response = new JokeBean();
+//        response.setJoke("Hi, " + name);
+        return joke;
     }
    /* @ApiMethod(name = "selectJoke")
     public MyBean selectJoke(MyBean joke) {

@@ -14,7 +14,7 @@ public class MyBean {
     }
 
 
-    private String myData;
+   /* private String myData;
 
     public String getData() {
         return myData;
@@ -22,6 +22,6 @@ public class MyBean {
 
     public void setData(String data) {
         myData = data;
-    }
+    }*/
 
 }
