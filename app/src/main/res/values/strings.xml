@@ -2,4 +2,9 @@
     <string name="app_name">BuildItBigger</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="root_url_api">https://build-it-bigger-gce-1333.appspot.com/_ah/api/</string>
+    <string name="instructions">Press the button for a delicious joke!</string>
+    <string name="button_text">Tell Joke</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

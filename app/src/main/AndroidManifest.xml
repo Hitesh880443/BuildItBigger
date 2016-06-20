@@ -3,6 +3,7 @@
     package="com.hitesh.builditbigger">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -12,7 +13,8 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="AIzaSyCJ_b0kFs22Jo7QNV5RI5Y4wbgJtWz5w_U" />
+            android:value="@integer/google_play_services_version" />
+        />
 
 
         <activity
@@ -26,6 +28,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--Include the AdActivity configChanges and theme. -->
+       <!-- <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />-->
     </application>
 
 </manifest>
