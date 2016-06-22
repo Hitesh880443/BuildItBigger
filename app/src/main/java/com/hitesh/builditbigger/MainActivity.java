@@ -24,19 +24,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        progressbar=(ProgressBar)findViewById(R.id.progressbar);
+       /* progressbar=(ProgressBar)findViewById(R.id.progressbar);
         final AdView mAdView = (AdView) findViewById(R.id.adView);
-        final AdRequest adRequest = new AdRequest.Builder().build();
+        final AdRequest adRequest = new AdRequest.Builder().build();*/
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        //ft.add(R.id.fragment, new JokeFrag()).commit();
+        ft.add(R.id.fragment, new JokeFrag()).commit();
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                /* Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
-                mAdView.loadAd(adRequest);
+               /* mAdView.loadAd(adRequest);*/
 
                 new EndpointsAsyncTask(getApplicationContext()).execute();
             }
