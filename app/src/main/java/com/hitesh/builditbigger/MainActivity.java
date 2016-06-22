@@ -1,5 +1,6 @@
 package com.hitesh.builditbigger;
 
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +11,7 @@ import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.hitesh.builditbigger.free.JokeFrag;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         final AdView mAdView = (AdView) findViewById(R.id.adView);
         final AdRequest adRequest = new AdRequest.Builder().build();
 
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        //ft.add(R.id.fragment, new JokeFrag()).commit();
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
